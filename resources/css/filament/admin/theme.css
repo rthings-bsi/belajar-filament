@@ -1,0 +1,24 @@
+/* Custom login page styling */
+.filament-login-page {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.filament-login-page form {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.filament-login-page input[type="email"],
+.filament-login-page input[type="password"] {
+    border: 2px solid #e2e8f0;
+    border-radius: 5px;
+    padding: 0.75rem;
+}
+
+.filament-login-page input[type="email"]:focus,
+.filament-login-page input[type="password"]:focus {
+    border-color: #3b82f6;
+    ring: 2px;
+}
